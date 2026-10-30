@@ -15,7 +15,7 @@ nav {
     justify-content: space-between;
     align-items: center;
     padding: 14px 24px;
-    background: rgb(128, 0, 0);
+    background: red;
     color: green;
 }
 
