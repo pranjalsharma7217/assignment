@@ -1,0 +1,39 @@
+body{
+    background:#eef2ff;
+    font-family: Arial, sans-serif;
+}
+
+header{
+    background:#6366f1;
+    color:white;
+    padding:20px;
+}
+
+aside{
+    background:#c7d2fe;
+    padding:20px;
+}
+
+.item{
+    background:white;
+    border-radius:10px;
+    padding:20px;
+    box-shadow:0 2px 8px rgba(0,0,0,0.1);
+}
+
+.item:hover{
+    transform:translateY(-3px);
+    background-color: green;
+}
+
+.icon{
+    color:#6366f1;
+    font-size:24px;
+}
+
+footer{
+    background:#6366f1;
+    color:white;
+    text-align:center;
+    padding:15px;
+}
