@@ -11,27 +11,33 @@ body {
 
 nav {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
     padding: 14px 24px;
-    background: purple;
+    background: rgb(128, 0, 0);
     color: green;
 }
 
 nav ul {
     display: flex;
-    gap: 20px;
+    flex-wrap: wrap;
+     padding: 8px 12px;
+     align-items: center;
     list-style: none;
 }
 
 nav a {
     color: white;
+    flex-wrap: wrap;
+     padding: 8px 12px;
     text-decoration: none;
 }
 
 .btn {
     background: #ffb703;
     border: 0;
+     flex-wrap: wrap;
     padding: 8px 16px;
     border-radius: 6px;
     font-weight: bold;
@@ -79,7 +85,6 @@ nav a {
 
 .card {
     flex: 1 1 200px;
-    /* grow, shrink, start at 200px */
     background: white;
     padding: 20px;
     border-radius: 10px;
